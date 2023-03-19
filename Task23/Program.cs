@@ -27,11 +27,11 @@ static int ReadNumber(string messege)
 static void SquareSequence(int N)
 {
     int i =1 ;
-    
+
     while (i<N)
     {
-        Console.Write($"{i*i}, ");
+        Console.Write($"{i*i*i}, ");
         i++;
     }
-    Console.Write($"{i*i}.");
+    Console.Write($"{i*i*i}.");
 }
